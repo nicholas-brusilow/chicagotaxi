@@ -20,6 +20,6 @@ Please note, however, that in order to provision a Microsoft SQL server, a Stora
 
 Thus, the *actual* first resource you must create is the blob storage.
 
-The template for this is `create_blob.json`. This creates the blob, as well as the necessary container within it for the vulnerability scan results. The contaienr is called `va-scan-results`
+The template for this is `create_blob.json`. This creates the blob, as well as the necessary container within it for the vulnerability scan results. The container is called `va-scan-results`
 
 The command to provision it is `az deployment group create --name chicagotaxiblob -g chicagotaxi-rg --template-file create_blob.json`

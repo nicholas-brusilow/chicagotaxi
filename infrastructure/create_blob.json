@@ -19,6 +19,16 @@
                 "tier": "Standard"
             },
             "kind": "StorageV2",
+            "resources": [
+                {
+                    "type":"blobServices/containers",
+                    "apiVersion": "2023-01-01",
+                    "name": "default/va-scan-results",
+                    "dependsOn": [
+                        "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_chicagotaxiblob_name'))]"
+                    ]                 
+                }               
+            ],
             "properties": {
                 "dualStackEndpointPreference": {
                     "publishIpv6Endpoint": false

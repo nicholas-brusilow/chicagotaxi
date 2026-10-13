@@ -7,7 +7,7 @@
 
 **A Microsoft Certified AI-300 MLOps Full-Cycle Project**
 
-This project is currently in progress. In it, I use a publicly-available dataset from the City of Chicago on taxicab pickups. The goal is to forecast hourly taxicab demand by Chicago community area. I have several goals for it.
+This project is currently in progress. In it, I use a publicly-available dataset from the City of Chicago on taxicab pickups. The goal is to forecast hourly taxicab demand by Chicago community area. I have several educational objectives for it.
 
 * Create a full Azure MLOps data pipeline. This will include ETL code, database definition, training and testing scripts;
 * Run the training scripts, track model performance, and perform hyperparameter tuning using MLFlow in Azure ML;
